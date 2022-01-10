@@ -44,7 +44,8 @@ df_graphique
 #Question 1 : 
 st.markdown("<h3 style = 'color:cornflowerblue;'>Question 1 :</h3>", unsafe_allow_html=True)
 graphiques = st.selectbox("Choisissez le graphique désiré : ", 
-                     ['Analyse de la corrélation entre les variables', 'Analyse de la distribution des valeurs']) 
+                     ['Analyse de la corrélation entre les variables', 'Analyse de la distribution des valeurs'],
+			 index = 0) 
 
 
 if graphiques == "Analyse de la corrélation entre les variables":
